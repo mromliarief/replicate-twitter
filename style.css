@@ -1,0 +1,153 @@
+html, body, .content-wrapper{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-screen{
+    flex: 1;
+    display: flex;
+}
+
+.login-action{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.form-group a{
+    color: #A9BAC4;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-group a:hover{
+    text-decoration: underline;
+}
+
+.login-screen .login-left p{
+    font-size: 20px;
+    color: white;
+}
+
+.login-left{
+    width: 50%;
+    background-color: #5BB1FC;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image:url("logo-twitter.png");
+    background-repeat: no-repeat;
+    background-size: 1028px 1110px;
+    background-attachment: fixed;
+    background-position: 104px -200px;
+}
+
+.login-right{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-terkait{
+    background-color: #ffffff;
+    padding: 5px;
+    border-top: 3px solid #A9BAC4;
+}
+
+.link-terkait ul{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.link-terkait ul li{
+    padding: 10px;
+    font-size: 11px;
+}
+
+.link-terkait ul li a{
+    color: #A9BAC4;
+    text-decoration: none;
+}
+
+.link-terkait ul li a:hover{
+    text-decoration: underline;
+}
+
+.form{
+    border: 1px solid #E6ECF0;
+    border-radius: 4px;
+    color: grey;
+    padding: 10px;
+    outline: none;
+    width: 190px;
+    margin-bottom: 10px;
+}
+
+.btn-outline{
+    padding: 10px 16px;
+    border: 1px solid #5BB1FC;
+    color: #5BB1FC;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.btn{
+    padding: 10px 16px;
+    background: #5BB1FC;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid #5BB1FC;
+}
+
+.btn-full{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 24px;
+}
+
+.icon-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.icon-logo img{
+    height: 100%;
+}
+
+.action-wrapper{
+    width: 55%;
+    margin-top: 13%;
+}
+
+.action-wrapper h1{
+    font-size: 24px;
+}
+
+.action-wrapper h3{
+    font-size: 18px;
+}
